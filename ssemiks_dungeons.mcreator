@@ -1,0 +1,58 @@
+{
+  "mod_elements": [
+    {
+      "name": "RandomDungeon",
+      "type": "structure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_dungeon"
+    },
+    {
+      "name": "ClassicRuin",
+      "type": "structure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_ruin"
+    },
+    {
+      "name": "ZombieRuin",
+      "type": "structure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_ruin"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ssemiks_dungeons",
+    "modName": "Ssemik\u0027s Dungeons",
+    "version": "0.1",
+    "description": "Explore new dungeons, spawner clusters, graveyards, etc...",
+    "author": "Ssemgame",
+    "websiteURL": "https://github.com/Ssemgame/Ssemik-s-Dungeons",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "dungeons1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.18.2",
+    "credits": "https://www.patreon.com/ThorSsemgame",
+    "modElementsPackage": "ssemik.ssemiks.dungeons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

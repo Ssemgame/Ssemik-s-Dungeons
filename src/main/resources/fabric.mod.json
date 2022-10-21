@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ssemiks_dungeons",
+  "version": "0.1",
+  "name": "Ssemik's Dungeons",
+  "description": "Explore new dungeons, spawner clusters, graveyards, etc...",
+  "authors": [
+    "Ssemgame"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Ssemgame/Ssemik-s-Dungeons",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 3 (GPLv3)",
+  "icon": "assets/ssemiks_dungeons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ssemik.ssemiks.dungeons.SsemiksDungeonsMod"
+    ],
+    "client": [
+      "ssemik.ssemiks.dungeons.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.18",
+    "java": ">=17"
+  }
+}
